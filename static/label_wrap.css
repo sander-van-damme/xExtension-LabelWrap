@@ -1,0 +1,4 @@
+.tree-folder-items > .item > a {
+    overflow: visible !important;
+    text-wrap: wrap !important;
+}

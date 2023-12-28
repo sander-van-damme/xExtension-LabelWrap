@@ -1,0 +1,8 @@
+{
+	"name": "Label Wrap",
+	"author": "Sander Van Damme",
+	"description": "Automatically wrap the labels and sort them by article count.",
+	"version": 1.0,
+	"entrypoint": "LabelWrap",
+	"type": "user"
+}
