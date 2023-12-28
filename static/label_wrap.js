@@ -18,4 +18,4 @@ function labelWrap()  {
     }
 }
 labelWrap();
-window.addEventListener("onhashchange", labelWrap);
+window.addEventListener("click", labelWrap);
