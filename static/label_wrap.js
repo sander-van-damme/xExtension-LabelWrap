@@ -1,4 +1,4 @@
-(function () {
+function labelWrap()  {
     try {
         const list = document.querySelector('#tags > .tree-folder-items');
         if (list) {
@@ -16,4 +16,6 @@
     catch (e) {
         console.log(e);
     }
-})();
+}
+labelWrap();
+window.addEventListener("onhashchange", labelWrap);
