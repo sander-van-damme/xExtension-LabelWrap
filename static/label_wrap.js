@@ -18,4 +18,5 @@ function labelWrap()  {
     }
 }
 labelWrap();
-window.addEventListener("click", labelWrap);
+window.addEventListener("DOMContentLoaded", labelWrap);
+window.addEventListener("onhashchange", labelWrap);
